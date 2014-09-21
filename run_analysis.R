@@ -4,12 +4,12 @@ library(dplyr)
 library(tidyr)
 
 ## Read the training and test data sets
-#X_train<-read.table("train/X_train.txt")
-#y_train<-read.table("train/y_train.txt")
-#subject_train<-read.table("train/subject_train.txt")
-#X_test<-read.table("test/X_test.txt")
-#y_test<-read.table("test/y_test.txt")
-#subject_test<-read.table("test/subject_test.txt")
+X_train<-read.table("train/X_train.txt")
+y_train<-read.table("train/y_train.txt")
+subject_train<-read.table("train/subject_train.txt")
+X_test<-read.table("test/X_test.txt")
+y_test<-read.table("test/y_test.txt")
+subject_test<-read.table("test/subject_test.txt")
 
 ## 1. Merge the training and the test data sets
 X<-rbind(X_test,X_train)
