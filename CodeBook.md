@@ -1,3 +1,4 @@
+```
 Measurement keys:
 activity (one of)
   WALKING
@@ -101,3 +102,4 @@ fBodyBodyGyroMag.mean.mean
 fBodyBodyGyroMag.std.mean
 fBodyBodyGyroJerkMag.mean.mean
 fBodyBodyGyroJerkMag.std.mean
+```
